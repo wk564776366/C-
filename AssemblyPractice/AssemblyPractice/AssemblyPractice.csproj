@@ -33,11 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AssemblyTest.AssemblyInfo">
+    <Reference Include="AssemblyTest.AssemblyInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\AssemblyTest.AssemblyInfo\bin\Debug\AssemblyTest.AssemblyInfo.dll</HintPath>
     </Reference>
     <Reference Include="AssemblyTest.IocTest">
       <HintPath>..\AssemblyTest.IocTest\bin\Debug\AssemblyTest.IocTest.dll</HintPath>
+    </Reference>
+    <Reference Include="PcbUICommon, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PcbUICommon.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
